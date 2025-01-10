@@ -15,7 +15,7 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 Tab:AddToggle({
-	Name = "This is a toggle!",
+	Name = "Auto",
 	Default = false,
 	Callback = function(Value)
 		print(Value)
